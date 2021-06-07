@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <style>
+        ol{
+            font-size: 25px;
+        }
+        h1{
+            font-size: 45px;
+        }
+        body{
+            background-color:black;
+            color: greenyellow;
+        }
+
+        .buttonarea{
+            text-align: center;
+        }
+        button{
+            background-color: lightgray;
+            height: 50px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+<div class="Header">
+    <h1 align='center'>Stop Watch</h1>
+</div>
+<div class="display">
+    <h1 id="time" align='center'>00:00:00</h2>
+</div>
+<div class="buttonarea">
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+    <button id='lap'>Lap</button>
+    <button id='reset'>Reset</button>
+</div>
+<div class="logs">
+    <ol id = "logholder">
+    </ol>  
+</div>
+<script src="index.js"></script>
+</body>
+</html>
